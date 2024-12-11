@@ -14,9 +14,6 @@ certoraRun src/ERC721.sol:MyTokenERC721 src/MockERC721Receiver.sol --verify MyTo
 https://prover.certora.com/output/2702178/a1df57d777cc46088d653daf48599854?anonymousKey=5d3b88af1a6cbb0364dadb3d22a8dc3f30f4d2ab
 
 
-## Верификация
-
-
 ## Нарушенные правила
 
 1. Двойной минт создает больше токенов, чем должно быть
